@@ -3,7 +3,7 @@ from Ncrptd.Menu import principal, Encriptado
 from Ncrptd.Opciones.Op0 import clave as solicitar_clave
 from Ncrptd.Opciones.Op1 import encriptar
 from Ncrptd.Opciones.Op2 import decriptar
-
+from Ncrptd.Opciones.Op3 import encriptar_con_rejilla
 def main():# Funcion
 
     # Iniciando varaibles
@@ -33,6 +33,15 @@ def main():# Funcion
                     else:
                         print("\nNo hay texto cifrado disponible.")
                 elif sub_opcion == '4':
+                    # if clave is not None:
+                    #     Txt = input('Ingrese texto -> ')
+                    #     filas = int(input('Ingrese el número de filas -> '))
+                    #     columnas = int(input('Ingrese el número de columnas -> '))
+                    #     texto_cifrado = encriptar_con_rejilla(Txt, clave, filas, columnas)  # Encriptar con rejilla
+                    # else:
+                        # print("\nPor favor, configure la clave primero.")
+                    pass
+                elif sub_opcion == '5':
                     break
                 else:
                     print("\nOpción no válida. Por favor.")

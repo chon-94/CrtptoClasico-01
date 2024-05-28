@@ -6,8 +6,8 @@ def principal():# Funcion
 
 def Encriptado():# Funcion
     print("\n Opciones:")
-    print("1. Generar clave")
-    print("2. Ver Encriptado")
-
+    print("1. Clave")
+    print("2. Encriptar")
     print("3. Decriptar ")
-    print("4. Regresar")
+    print("4. Encriptar con rejilla")
+    print("5. Regresar")
